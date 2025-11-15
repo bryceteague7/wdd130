@@ -1,13 +1,12 @@
 
 :root {
-  --primary-color: #38761D; 
+  --primary-color: #38761D;
   --secondary-color: #F1C40F; 
   --accent1-color: #1A5276; 
   --accent2-color: #F8F9F9; 
   --heading-font: "Georgia", serif;
   --body-font: "Arial", sans-serif;
 }
-
 
 * {
   margin: 0;
@@ -17,27 +16,23 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color); 
+  color: var(--accent1-color);
 }
-
 
 header, main, footer {
   width: 840px; 
   margin: 0 auto; 
 }
 
-
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
-
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
 }
-
 
 header {
     background-color: var(--primary-color);
@@ -68,8 +63,6 @@ header nav ul li a:hover {
     background-color: var(--accent1-color);
 }
 
-
-
 .hero {
   position: relative; 
 }
@@ -79,7 +72,6 @@ header nav ul li a:hover {
   width: 100%; 
   height: auto;
 }
-
 
 .hero h1 {
   position: absolute;
@@ -92,19 +84,17 @@ header nav ul li a:hover {
   color: var(--accent2-color); 
 }
 
-
 .hero article {
   position: absolute;
   top: 120px; 
   left: 5%; 
-  width: 90%; 
+  width: 90%;
   padding: 20px;
   background-color: var(--accent2-color);
   opacity: 0.9;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 .hero article img {
   float: right; 
@@ -113,7 +103,6 @@ header nav ul li a:hover {
   border: 2px solid var(--secondary-color);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
 
 footer {
     background-color: var(--accent1-color);
@@ -128,7 +117,6 @@ footer p {
     margin: 0;
     padding: 0;
 }
-
 
 .socialmedia a {
     text-decoration: none; 
