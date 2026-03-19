@@ -1,48 +1,48 @@
-/* Reset */
+/* Reset all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Navigation (REQUIRED) */
+/* Navigation styling */
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #333; /* required background color */
+    padding: 15px; /* required padding */
 }
 
-/* Navigation links (REQUIRED) */
+/* Navigation links styling */
 nav a {
-    color: white;
-    padding: 10px;
-    display: block;
+    color: #fff; /* required color */
+    padding: 10px; /* required padding */
+    display: block; /* required display property */
     text-decoration: none;
 }
 
-/* Main layout */
+/* Main container */
 main {
-    max-width: 800px;
+    max-width: 800px; /* required max-width */
     margin: 0 auto;
 }
 
-/* h1 styling (REQUIRED) */
+/* Main heading styling */
 h1 {
-    color: #333;
+    color: #333; /* required color */
     margin-bottom: 15px;
 }
 
-/* Profile image inside main (UPDATED to meet ALL requirements) */
+/* Profile image inside main */
 main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 150px; /* required width */
+    height: auto; /* required height (keep aspect ratio) */
+    border: 2px solid #ccc; /* required border */
+    padding: 5px; /* required padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* required box-shadow */
 }
 
-/* Paragraph fix */
+/* Paragraph styling */
 p {
-    padding: 0;
+    padding: 0; /* required padding */
 }
 
 /* Aside styling */
@@ -55,7 +55,7 @@ aside {
     color: #333;
 }
 
-/* Aside image */
+/* Aside images */
 aside img {
     width: 200px;
     height: auto;
