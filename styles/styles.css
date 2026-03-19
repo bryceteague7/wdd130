@@ -1,82 +1,47 @@
-/* General page styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-/* Navigation */
-nav {
-    background-color: steelblue;
-    padding: 10px;
+/* Main layout */
+main {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    display: block;
-    margin-bottom: 5px;
+/* Profile image ONLY inside main */
+main img {
+    width: 150px;
+    height: auto;
 }
 
-/* Grid layout */
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 20px;
-    padding: 20px;
+/* General paragraph fix */
+p {
+    padding: 0;
 }
 
-/* Aside styling */
+/* Aside styling (REQUIRED) */
 aside {
-    width: 250px;
-    margin: 0 auto 20px;
-    padding: 15px;
+    width: 300px;
+    margin: 20px;
     border: 1px solid #ccc;
-    background-color: #fff;
+    padding: 15px;
+    background-color: #f4f4f4;
     color: #333;
-    border-radius: 5px;
 }
 
+/* Aside image rule */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Main content */
-main {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    max-width: 800px;
-}
-
-main img {
-    width: 200px;
-    height: auto;
-    border: 2px solid steelblue;
-    padding: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-}
-
-/* Headings */
-h1 {
-    color: steelblue;
-}
-
-/* Paragraphs */
-p {
-    padding: 0;
-}
-
-/* Footer */
+/* Footer styling (REQUIRED) */
 footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
-    padding: 15px;
-    background-color: steelblue;
-    color: white;
+    padding: 10px;
 }
