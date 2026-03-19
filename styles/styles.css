@@ -5,24 +5,47 @@
     box-sizing: border-box;
 }
 
+/* Navigation (REQUIRED) */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Navigation links (REQUIRED) */
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
 /* Main layout */
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Profile image ONLY inside main */
+/* h1 styling (REQUIRED) */
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Profile image inside main (UPDATED to meet ALL requirements) */
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* General paragraph fix */
+/* Paragraph fix */
 p {
     padding: 0;
 }
 
-/* Aside styling (REQUIRED) */
+/* Aside styling */
 aside {
     width: 300px;
     margin: 20px;
@@ -32,13 +55,13 @@ aside {
     color: #333;
 }
 
-/* Aside image rule */
+/* Aside image */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Footer styling (REQUIRED) */
+/* Footer styling */
 footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
