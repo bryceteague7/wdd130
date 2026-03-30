@@ -66,7 +66,7 @@ nav a {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: var(--accent2-color); /* Fix contrast */
+    color: var(--accent2-color);
 }
 
 /* Hero Article */
