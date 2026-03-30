@@ -1,70 +1,96 @@
-/* Reset all elements */
+/* Reset some defaults */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Navigation styling */
-nav {
-    background-color: #333; /* required background color */
-    padding: 15px; /* required padding */
-}
-
-/* Navigation links styling */
-nav a {
-    color: #fff; /* required color */
-    padding: 10px; /* required padding */
-    display: block; /* required display property */
-    text-decoration: none;
-}
-
-/* Main container */
-main {
-    max-width: 800px; /* required max-width */
-    margin: 0 auto;
-}
-
-/* Main heading styling */
-h1 {
-    color: #333; /* required color */
-    margin-bottom: 15px;
-}
-
-/* Profile image inside main */
-main img {
-    width: 150px; /* required width */
-    height: auto; /* required height (keep aspect ratio) */
-    border: 2px solid #ccc; /* required border */
-    padding: 5px; /* required padding */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* required box-shadow */
-}
-
-/* Paragraph styling */
-p {
-    padding: 0; /* required padding */
-}
-
-/* Aside styling */
-aside {
-    width: 300px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    padding: 15px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Aside images */
+/* Header */
+header {
+    background: #0a3d62;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header img {
+    width: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN (required width limit) */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Profile images inside main */
+main img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Paragraph fix */
+p {
+    padding: 0;
+}
+
+/* ASIDE styling (required properties) */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #0a3d62;
+    padding: 15px;
+    background-color: #eaf2f8;
+    color: #0a3d62;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Aside image requirement */
 aside img {
     width: 200px;
     height: auto;
+    margin: 10px 0;
+    border-radius: 6px;
 }
 
 /* Footer styling */
 footer {
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    border-top: 2px solid #ccc;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    background: #0a3d62;
+    color: white;
+}
+
+footer img {
+    width: 25px;
+    margin: 5px;
 }
