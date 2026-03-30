@@ -1,6 +1,5 @@
 :root {
     --primary-color: #0b3c5d;
-    --secondary-color: #328cc1;
     --accent1-color: #d9b310;
     --accent2-color: #1d2731;
 
@@ -9,7 +8,7 @@
 }
 
 /* Reset */
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,6 +17,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent2-color);
+    background-color: #ffffff;
 }
 
 /* Layout */
@@ -64,9 +64,9 @@ nav a {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--accent1-color);
-    color: #ffffff;
+    color: var(--accent2-color); /* Fix contrast */
 }
 
 /* Hero Article */
@@ -75,7 +75,8 @@ nav a {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
 }
 
 /* Article Image */
@@ -93,4 +94,12 @@ footer {
 /* Social Media */
 .socialmedia a {
     text-decoration: none;
+    margin: 0 5px;
+}
+
+.socialmedia a img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
 }
